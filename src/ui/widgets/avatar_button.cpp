@@ -18,6 +18,7 @@
 #include "ui/widgets/avatar_button.h"
 
 #include <QPainter>
+#include <QPainterPath>
 #include <QPaintEvent>
 
 #include "base/file_util.h"
