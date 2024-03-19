@@ -55,7 +55,7 @@
   },
   {
     "title": "Deepin 版本",
-    "name": "system_info_deepin_version",
+    "name": "system_info_lingmo_version",
     "description": "",
     "type": "Base64String"
   }, {

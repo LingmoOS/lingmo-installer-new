@@ -250,8 +250,8 @@
     <message>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
-        <source>You can experience the incredible pleasure of deepin after the time for just a cup of coffee</source>
-        <translation>只需一杯咖啡的時間，方能體會到 deepin 難以置信的樂趣</translation>
+        <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
+        <translation>只需一杯咖啡的時間，方能體會到 lingmo 難以置信的樂趣</translation>
     </message>
 </context>
 <context>
@@ -265,8 +265,8 @@
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
-        <source>Reboot to enjoy the new experience with deepin, hope you like it!</source>
-        <translation>重新啟動後即可享受 deepin 帶來的全新體驗，希望你喜歡！</translation>
+        <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
+        <translation>重新啟動後即可享受 lingmo 帶來的全新體驗，希望你喜歡！</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -607,8 +607,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
-        <source>It needs more than %1GB disk space to install deepin, for better performance, %2GB and more space is recommended</source>
-        <translation>安裝 deepin 至少要 %1 GB 的磁碟機空間，建議 %2 GB 以上以取得更好效果</translation>
+        <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
+        <translation>安裝 lingmo 至少要 %1 GB 的磁碟機空間，建議 %2 GB 以上以取得更好效果</translation>
     </message>
 </context>
 <context>
@@ -676,8 +676,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
-        <source>Windows will not boot if install deepin on Windows disk, please confirm to continue</source>
-        <translation>如將 deepin 安裝到 Windows 磁碟機，後者會無法啟動，請確定再繼續</translation>
+        <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
+        <translation>如將 lingmo 安裝到 Windows 磁碟機，後者會無法啟動，請確定再繼續</translation>
     </message>
 </context>
 <context>
@@ -860,8 +860,8 @@
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
-        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install deepin in real-machine environment</source>
-        <translation>系統偵測到你正在使用虛擬機器，使用虛擬機器會影響系統效能與使用體驗，建議你在實體機器環境安裝 deepin 以確保流暢體驗</translation>
+        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
+        <translation>系統偵測到你正在使用虛擬機器，使用虛擬機器會影響系統效能與使用體驗，建議你在實體機器環境安裝 lingmo 以確保流暢體驗</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -1034,7 +1034,7 @@
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="55"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="105"/>
         <source>Unable to install directly due to EFI motherboard boot loader and MBR disk detected, please select one of the solutions below to continue.</source>
-        <translation>因為偵測到 MBR 磁碟機但電腦為 EFI 主機板，因此無法安裝 deepin。請嘗試一個解決方案。</translation>
+        <translation>因為偵測到 MBR 磁碟機但電腦為 EFI 主機板，因此無法安裝 lingmo。請嘗試一個解決方案。</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="61"/>
@@ -1045,8 +1045,8 @@
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
-        <source>Exit BIOS, and enter deepin to install</source>
-        <translation>離開 BIOS 並重新進入 deepin 安裝程序</translation>
+        <source>Exit BIOS, and enter lingmo to install</source>
+        <translation>離開 BIOS 並重新進入 lingmo 安裝程序</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

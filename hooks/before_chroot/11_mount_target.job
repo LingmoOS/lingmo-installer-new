@@ -93,8 +93,8 @@ if [ -z ${result} ]; then
   error "Failed to mount ${target}!"
 fi
 
-[ ! -d ${target}/deepinhost ] && mkdir -p ${target}/deepinhost
-mount --bind / ${target}/deepinhost
+[ ! -d ${target}/lingmohost ] && mkdir -p ${target}/lingmohost
+mount --bind / ${target}/lingmohost
 
 # Mount other mountpoints
 # Split mount-point list.

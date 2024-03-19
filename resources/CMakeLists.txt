@@ -6,25 +6,25 @@ install(
     ${CMAKE_CURRENT_SOURCE_DIR}/oem_settings.json
     ${CMAKE_CURRENT_SOURCE_DIR}/reserved_usernames
     ${CMAKE_CURRENT_SOURCE_DIR}/timezone_alias
-    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/deepin-installer/resources
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
 )
 
 # Install PolicyKit file.
 install(
-    FILES ${CMAKE_CURRENT_SOURCE_DIR}/com.deepin.pkexec.installer.policy
-    ${CMAKE_CURRENT_SOURCE_DIR}/com.deepin.pkexec.installer-first-boot.policy
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/com.lingmo.pkexec.installer.policy
+    ${CMAKE_CURRENT_SOURCE_DIR}/com.lingmo.pkexec.installer-first-boot.policy
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/polkit-1/actions/
 )
 
 install(
-    FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer-oem.desktop
-    ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer.desktop
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/lingmo-installer-oem.desktop
+    ${CMAKE_CURRENT_SOURCE_DIR}/lingmo-installer.desktop
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/applications
 )
 
 install(
-    FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer-oem.svg
-    ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer.svg
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/lingmo-installer-oem.svg
+    ${CMAKE_CURRENT_SOURCE_DIR}/lingmo-installer.svg
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps
 )
 
@@ -37,34 +37,34 @@ message("build arch: ${INSTALLER_BUILD_ARCH}")
 
 if (${INSTALLER_BUILD_ARCH} MATCHES "x86")
   set(IS_PROFESSIONAL FALSE)
-  if (EXISTS "/etc/deepin-version")
-    file(STRINGS "/etc/deepin-version" IS_PROFESSIONAL REGEX "Type *= *Professional")
+  if (EXISTS "/etc/lingmo-version")
+    file(STRINGS "/etc/lingmo-version" IS_PROFESSIONAL REGEX "Type *= *Professional")
   endif()
   if (IS_PROFESSIONAL)
     # Install professional settings.
     install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/professional_default_settings.ini
-            DESTINATION ${CMAKE_INSTALL_PREFIX}/share/deepin-installer/resources
+            DESTINATION ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
             RENAME default_settings.ini
             )
   else()
     # Install default settings.
     install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/default_settings.ini
-            DESTINATION ${CMAKE_INSTALL_PREFIX}/share/deepin-installer/resources
+            DESTINATION ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
             )
   endif()
 elseif(${INSTALLER_BUILD_ARCH} MATCHES "sw")
   install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/sw_default_settings.ini
-          DESTINATION  ${CMAKE_INSTALL_PREFIX}/share/deepin-installer/resources
+          DESTINATION  ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
           RENAME default_settings.ini
           )
 elseif(${INSTALLER_BUILD_ARCH} MATCHES "mips")
   install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/loongson_default_settings.ini
-          DESTINATION  ${CMAKE_INSTALL_PREFIX}/share/deepin-installer/resources
+          DESTINATION  ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
           RENAME default_settings.ini
           )
 elseif (${INSTALLER_BUILD_ARCH} MATCHES "aarch64")
   install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/arm_default_settings.ini
-          DESTINATION ${CMAKE_INSTALL_PREFIX}/share/deepin-installer/resources
+          DESTINATION ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
           RENAME default_settings.ini
           )
 else()

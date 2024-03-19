@@ -24,7 +24,7 @@
 HOOKS_DIR=/tmp/installer
 
 if [ ! -d ${HOOKS_DIR} ];then
-  HOOKS_DIR=/usr/share/deepin-installer/hooks
+  HOOKS_DIR=/usr/share/lingmo-installer/hooks
 fi
 
 . "${HOOKS_DIR}/basic_utils.sh"

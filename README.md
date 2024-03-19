@@ -22,10 +22,10 @@ Deepin Installer, release version.
 * No cut/copy/paste operations
 
 # Unit test
-Run `deepin-installer-tests`
+Run `lingmo-installer-tests`
 
 # OEM tools
-Run `deepin-installer-oem`
+Run `lingmo-installer-oem`
 
 # Copyright
 This project is released under GNU General Public License which can be found in

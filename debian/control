@@ -1,7 +1,7 @@
-Source: deepin-installer-reborn
+Source: lingmo-installer-reborn
 Section: utils
 Priority: extra
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: Deepin Packages Builder <packages@lingmo.com>
 Build-Depends:
     cmake (>=3.1),
     debhelper (>=9),
@@ -25,9 +25,9 @@ Build-Depends:
     libdtkcore-dev,
     libdtkcore5-bin
 Standards-Version: 3.9.8
-Homepage: http://www.deepin.org
+Homepage: http://www.lingmo.org
 
-Package: deepin-installer-timezones
+Package: lingmo-installer-timezones
 Architecture: all
 Depends:
     ${shlibs:Depends},
@@ -35,13 +35,13 @@ Depends:
 Description: Language package for timezone names
  Installer language package for timezone names
 
-Package: deepin-installer
+Package: lingmo-installer
 Architecture: any
 Depends:
     ${shlibs:Depends},
     ${misc:Depends},
     btrfs-progs [i386 amd64],
-    deepin-installer-timezones,
+    lingmo-installer-timezones,
     dosfstools,
     imagemagick [i386 amd64],
     imageworsener [!i386 !amd64],
@@ -59,14 +59,14 @@ Depends:
     xfsprogs [i386 amd64],
     xinit,
     xkb-data
-Description: Release version of deepin installer
- New version of deepin-installer, rewritten with Qt5.
+Description: Release version of lingmo installer
+ New version of lingmo-installer, rewritten with Qt5.
 
-Package: deepin-installer-oem
+Package: lingmo-installer-oem
 Architecture: any
 Depends:
     ${shlibs:Depends},
     ${misc:Depends},
-    deepin-installer
+    lingmo-installer
 Description: OEM tool
- OEM tool for deepin-installer
+ OEM tool for lingmo-installer

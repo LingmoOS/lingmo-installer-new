@@ -250,8 +250,8 @@
     <message>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
-        <source>You can experience the incredible pleasure of deepin after the time for just a cup of coffee</source>
-        <translation>Będziesz mógł doświadczyć niesamowitą przyjemność wynikającą z deepin po czasie potrzebnym na wypicie jednej filiżanki kawy</translation>
+        <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
+        <translation>Będziesz mógł doświadczyć niesamowitą przyjemność wynikającą z lingmo po czasie potrzebnym na wypicie jednej filiżanki kawy</translation>
     </message>
 </context>
 <context>
@@ -265,8 +265,8 @@
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
-        <source>Reboot to enjoy the new experience with deepin, hope you like it!</source>
-        <translation>Uruchom ponownie komputer, aby móc cieszyć się nowymi doświadczeniami z deepin; mamy nadzieję, że Ci się spodoba!</translation>
+        <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
+        <translation>Uruchom ponownie komputer, aby móc cieszyć się nowymi doświadczeniami z lingmo; mamy nadzieję, że Ci się spodoba!</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -607,8 +607,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
-        <source>It needs more than %1GB disk space to install deepin, for better performance, %2GB and more space is recommended</source>
-        <translation>Aby zainstalować deepin wymagane jest ponad %1GB miejsca na dysku; dla pełnego korzystania z dobrodziejstw systemu rekomendowane jest przynajmniej %2GB przestrzeni na dysku.</translation>
+        <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
+        <translation>Aby zainstalować lingmo wymagane jest ponad %1GB miejsca na dysku; dla pełnego korzystania z dobrodziejstw systemu rekomendowane jest przynajmniej %2GB przestrzeni na dysku.</translation>
     </message>
 </context>
 <context>
@@ -676,8 +676,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
-        <source>Windows will not boot if install deepin on Windows disk, please confirm to continue</source>
-        <translation>Windows nie będzie uruchamiany, jeśli zainstalujesz deepin na dysku z Windows, prosimy potwierdzić, aby kontynuować</translation>
+        <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
+        <translation>Windows nie będzie uruchamiany, jeśli zainstalujesz lingmo na dysku z Windows, prosimy potwierdzić, aby kontynuować</translation>
     </message>
 </context>
 <context>
@@ -860,8 +860,8 @@
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
-        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install deepin in real-machine environment</source>
-        <translation>System wykrył, że używasz maszyny wirtualnej, która ma negatywny wpływ na doświadczenie wydajności i działania systemu. Aby uzyskać najlepsze doświadczenia płynące z systemu zaleca się, aby zainstalować deepin w środowisku maszyny rzeczywistej.</translation>
+        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
+        <translation>System wykrył, że używasz maszyny wirtualnej, która ma negatywny wpływ na doświadczenie wydajności i działania systemu. Aby uzyskać najlepsze doświadczenia płynące z systemu zaleca się, aby zainstalować lingmo w środowisku maszyny rzeczywistej.</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -1045,8 +1045,8 @@
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
-        <source>Exit BIOS, and enter deepin to install</source>
-        <translation>Wyjdź z BIOS i włącz deepin, aby go zainstalować</translation>
+        <source>Exit BIOS, and enter lingmo to install</source>
+        <translation>Wyjdź z BIOS i włącz lingmo, aby go zainstalować</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

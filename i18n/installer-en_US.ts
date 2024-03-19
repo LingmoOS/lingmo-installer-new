@@ -71,7 +71,7 @@
     </message>
     <message>
         <location filename="../ui/frames/disk_space_insufficient_frame.cpp" line="27"/>
-        <source>It takes at least %1GB disk space to install deepin, for better performance, %2GB and more space is recommended</source>
+        <source>It takes at least %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -305,7 +305,7 @@
     <message>
         <location filename="../ui/frames/install_progress_frame.cpp" line="115"/>
         <location filename="../ui/frames/install_progress_frame.cpp" line="140"/>
-        <source>You can experience the incredible pleasure of deepin after the time for just a cup of coffee</source>
+        <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../ui/frames/install_success_frame.cpp" line="29"/>
         <location filename="../ui/frames/install_success_frame.cpp" line="47"/>
-        <source>Reboot to enjoy the new experience with deepin, hope you like it!</source>
+        <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -568,7 +568,7 @@
     <message>
         <location filename="../ui/frames/inner/partition_table_warning_frame.cpp" line="47"/>
         <location filename="../ui/frames/inner/partition_table_warning_frame.cpp" line="104"/>
-        <source>Exit BIOS, and enter deepin to install</source>
+        <source>Exit BIOS, and enter lingmo to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -876,7 +876,7 @@
     <message>
         <location filename="../ui/frames/virtual_machine_frame.cpp" line="29"/>
         <location filename="../ui/frames/virtual_machine_frame.cpp" line="47"/>
-        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install deepin in real-machine environment</source>
+        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

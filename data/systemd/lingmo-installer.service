@@ -1,0 +1,13 @@
+[Unit]
+Description=Launch installer in normal mode
+ConditionKernelCommandLine=!auto-lingmo-installer
+ConditionPathExists=!/etc/lingmo-installer-first-boot
+Conflicts=plymouth-quit.service getty@tty1.service
+After=systemd-user-sessions.service getty@tty1.service plymouth-quit.service
+
+[Service]
+ExecStart=/usr/bin/xinit /usr/bin/lingmo-installer
+Restart=always
+
+[Install]
+WantedBy=lingmo-installer.target

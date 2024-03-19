@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Copy /etc/deepin-installer.conf to /target
+# Copy /etc/lingmo-installer.conf to /target
 
 if [ -f "${CONF_FILE}" ]; then
   install -v -m644 "${CONF_FILE}"  "/target/${CONF_FILE}" || \

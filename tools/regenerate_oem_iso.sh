@@ -31,7 +31,7 @@ installDependencies() {
 # Extract contents of original ISO.
 extractISO() {
   echo '[extractISO]'
-  local kISOMountPointDir=$HOME/.cache/deepin/deepin-installer/$(date +%s).mp
+  local kISOMountPointDir=$HOME/.cache/lingmo/lingmo-installer/$(date +%s).mp
   mkdir -pv "${kISOMountPointDir}"
   mkdir -pv "${kSourceISODir}"
 
@@ -66,7 +66,7 @@ fi
 kSourceISOFile=$1
 kOemDir=$2
 kTargetISOFile=$3
-kSourceISODir=$HOME/.cache/deepin/deepin-installer/$(date +%s).dir
+kSourceISODir=$HOME/.cache/lingmo/lingmo-installer/$(date +%s).dir
 
 installDependencies || error "Failed to install dependencies"
 extractISO || error "Failed to extract base iso"

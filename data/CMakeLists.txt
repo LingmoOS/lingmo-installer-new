@@ -1,5 +1,5 @@
 install(
-    FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer.conf
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/lingmo-installer.conf
     DESTINATION /etc/live/config.conf.d/
 )
 

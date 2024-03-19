@@ -21,7 +21,7 @@
 echo "-----------------------------Before Chroot Hooks ----------------------"
 echo "-----------------------------DEBUG INFO: df -h ----------------------"
 df -h
-ls -lh /target/deepinhost
+ls -lh /target/lingmohost
 echo "-----------------------------DEBUG INFO: mount ----------------------"
 mount
 

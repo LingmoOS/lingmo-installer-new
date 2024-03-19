@@ -23,7 +23,7 @@ namespace installer {
 
 ReleaseVersion GetReleaseVersioin() {
   ReleaseVersion version = {"", ""};
-  QSettings settings("/etc/deepin-version", QSettings::IniFormat);
+  QSettings settings("/etc/lingmo-version", QSettings::IniFormat);
   settings.beginGroup("Release");
   if (settings.contains("Version")) {
     version.version = settings.value("Version").toString();

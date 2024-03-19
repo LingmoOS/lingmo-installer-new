@@ -40,7 +40,7 @@ void InstallSuccessFrame::changeEvent(QEvent* event) {
   if (event->type() == QEvent::LanguageChange) {
     title_label_->setText(tr("Successfully Installed"));
     comment_label_->setText(
-        tr("Reboot to enjoy the new experience with deepin, "
+        tr("Reboot to enjoy the new experience with lingmo, "
            "hope you like it!"));
     eject_label_->setText(
         tr("Please remove the installation media before reboot"));
@@ -60,7 +60,7 @@ void InstallSuccessFrame::initUI() {
   status_label->setPixmap(installer::renderPixmap(":/images/success.svg"));
   title_label_ = new TitleLabel(tr("Successfully Installed"));
   comment_label_ = new CommentLabel(
-      tr("Reboot to enjoy the new experience with deepin, hope you like it!"));
+      tr("Reboot to enjoy the new experience with lingmo, hope you like it!"));
   QHBoxLayout* comment_layout = new QHBoxLayout();
   comment_layout->setContentsMargins(0, 0, 0, 0);
   comment_layout->setSpacing(0);

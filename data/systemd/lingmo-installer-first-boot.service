@@ -1,0 +1,13 @@
+[Unit]
+Description=live installer
+Wants=lingmo-installer.target
+After=lingmo-installer.target
+ConditionPathExists=/etc/lingmo-installer-first-boot
+Conflicts=plymouth-quit.service getty@tty1.service
+
+[Service]
+ExecStart=/usr/bin/xinit /usr/bin/lingmo-installer-first-boot
+Restart=always
+
+[Install]
+WantedBy=lingmo-installer.target

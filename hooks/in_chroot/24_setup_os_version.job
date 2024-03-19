@@ -17,13 +17,13 @@
 #
 
 # Update system version information.
-# Put this script before 51_install_deepin_license_activator.job
+# Put this script before 51_install_lingmo_license_activator.job
 
-# Update /etc/deepin-version.
-NEW_VERSION=$(installer_get "system_info_deepin_version")
+# Update /etc/lingmo-version.
+NEW_VERSION=$(installer_get "system_info_lingmo_version")
 if [ -n "${NEW_VERSION}" ]; then
-  [ -f /etc/deepin-version ] && rm -vf /etc/deepin-version
-  echo "${NEW_VERSION}" | base64 -d | tee /etc/deepin-version
+  [ -f /etc/lingmo-version ] && rm -vf /etc/lingmo-version
+  echo "${NEW_VERSION}" | base64 -d | tee /etc/lingmo-version
 fi
 
 # Update /etc/lsb-release

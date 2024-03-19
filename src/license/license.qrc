@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/license">
-        <file>deepin-end-user-license-agreement_zh_CN.txt</file>
-        <file>deepin-end-user-license-agreement_en_US.txt</file>
-        <file>deepin-end-user-license-agreement_community_zh_CN.txt</file>
-        <file>deepin-end-user-license-agreement_community_en_US.txt</file>
+        <file>lingmo-end-user-license-agreement_zh_CN.txt</file>
+        <file>lingmo-end-user-license-agreement_en_US.txt</file>
+        <file>lingmo-end-user-license-agreement_community_zh_CN.txt</file>
+        <file>lingmo-end-user-license-agreement_community_en_US.txt</file>
     </qresource>
 </RCC>

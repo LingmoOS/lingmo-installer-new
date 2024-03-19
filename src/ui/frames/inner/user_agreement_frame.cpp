@@ -14,11 +14,11 @@
 using namespace installer;
 
 #ifdef PROFESSIONAL
-const QString zh_CN_license{ ":/license/deepin-end-user-license-agreement_zh_CN.txt" };
-const QString en_US_license{ ":/license/deepin-end-user-license-agreement_en_US.txt" };
+const QString zh_CN_license{ ":/license/lingmo-end-user-license-agreement_zh_CN.txt" };
+const QString en_US_license{ ":/license/lingmo-end-user-license-agreement_en_US.txt" };
 #else
-const QString zh_CN_license{ ":/license/deepin-end-user-license-agreement_community_zh_CN.txt" };
-const QString en_US_license{ ":/license/deepin-end-user-license-agreement_community_en_US.txt" };
+const QString zh_CN_license{ ":/license/lingmo-end-user-license-agreement_community_zh_CN.txt" };
+const QString en_US_license{ ":/license/lingmo-end-user-license-agreement_community_en_US.txt" };
 #endif  // PROFESSIONAL
 
 UserAgreementFrame::UserAgreementFrame(QWidget *parent) : QFrame(parent), m_language(QLocale::Language::English), m_type(Type::Chinese)

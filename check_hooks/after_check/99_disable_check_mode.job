@@ -1,12 +1,12 @@
 #!/bin/bash
 
-. "/deepin-installer/basic_utils.sh"
-. "/usr/share/deepin-installer/hooks/basic_utils.sh"
+. "/lingmo-installer/basic_utils.sh"
+. "/usr/share/lingmo-installer/hooks/basic_utils.sh"
 
-deepin-installer-settings set /etc/deepin-installer.conf system_check_mode false
+lingmo-installer-settings set /etc/lingmo-installer.conf system_check_mode false
 
 CONF_FILE=/etc/lightdm/lightdm.conf
 cat > "${CONF_FILE}" <<EOF
 [Seat:*]
-greeter-setup-script=/usr/bin/deepin-installer-first-boot
+greeter-setup-script=/usr/bin/lingmo-installer-first-boot
 EOF

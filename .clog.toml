@@ -1,5 +1,5 @@
 [clog]
-repository = "https://github.com/linuxdeepin/deepin-install-reborn"
+repository = "https://github.com/LingmoOS/lingmo-installer-new"
 from-latest-tag = true
 
 changelog = "CHANGELOG.md"

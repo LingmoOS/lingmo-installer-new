@@ -37,7 +37,7 @@ class LanguageFrame;
 class NetworkFrame;
 class ControlPlatformFrame;
 
-// Main window of deepin_installer_first_boot.
+// Main window of lingmo_installer_first_boot.
 class FirstBootSetupWindow : public QFrame {
   Q_OBJECT
 

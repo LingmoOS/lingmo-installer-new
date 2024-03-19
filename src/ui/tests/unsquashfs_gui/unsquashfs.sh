@@ -14,13 +14,13 @@ else
   PROCESSORS=1
 fi
 
-deepin-installer-unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE}
+lingmo-installer-unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE}
 
-#script -c "unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE} | deepin-installer-unsquashfs-progress ${BASE_PROGRESS_FILE}" /dev/null
+#script -c "unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE} | lingmo-installer-unsquashfs-progress ${BASE_PROGRESS_FILE}" /dev/null
 
 #stty columns 80 ocrnl
 #unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE}
-#script -c "unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE} | deepin-installer-unsquashfs-progress" /dev/null
-#unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE} | deepin-installer-unsquashfs-progress ${BASE_PROGRESS_FILE}
+#script -c "unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE} | lingmo-installer-unsquashfs-progress" /dev/null
+#unsquashfs -p ${PROCESSORS} -f ${SQUASHFS_FILE} | lingmo-installer-unsquashfs-progress ${BASE_PROGRESS_FILE}
 
 exit 0

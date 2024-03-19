@@ -16,12 +16,12 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Replace \n with new line for deepin-installer.log file.
+# Replace \n with new line for lingmo-installer.log file.
 
 LOG_FILE=$1
 if [ -f ${LOG_FILE} ]; then
   sed -e 's/\\r\\n/\n/g' $1 | sed -e 's/\\n/\n/g'
 else
-  echo "Usage: $0 deepin-installer.log"
+  echo "Usage: $0 lingmo-installer.log"
   exit 1
 fi

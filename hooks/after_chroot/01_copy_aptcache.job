@@ -19,7 +19,7 @@
 # Copy apt-cache list
 
 [ -d /target/var/lib/apt/lists ] && rm -rf /target/var/lib/apt/lists
-[ -d /target/deepinhost/var/lib/apt/lists ] && \
-  cp -rvfp /target/deepinhost/var/lib/apt/lists /target/var/lib/apt
+[ -d /target/lingmohost/var/lib/apt/lists ] && \
+  cp -rvfp /target/lingmohost/var/lib/apt/lists /target/var/lib/apt
 
 return 0

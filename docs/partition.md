@@ -67,7 +67,7 @@ EFI 分区(ESP), 应该添加boot及esp标记. 当加入这个标记后, EFI分�
 不同的引导方式, bootloader 的安装位置是有差异的.
 
 ## UEFI 模式
-只需要将 grub-efi, shim 等一起复制到 EFI 文件系统的 deepin/ 目录里就可以了.
+只需要将 grub-efi, shim 等一起复制到 EFI 文件系统的 lingmo/ 目录里就可以了.
 可以用 efibootmgr 来调整 UEFI 启动项的顺序.
 
 ## Legacy 模式
@@ -126,7 +126,7 @@ msdos 分区表, 而且里面已经有了系统, 那么就有极大的可能性,
 后台开始扫描磁盘之前, 会尽可能卸载所有可卸载的分区 (Debug 模式不会卸载交换分区). 如果卸载失败,
 在分区页面里, 会隐藏正在被使用的分区.
 
-容量的单位是 MiB, GiB, 但是为了保证与 deepin 文件管理器的统一, 现在改为MB和GB.
+容量的单位是 MiB, GiB, 但是为了保证与 lingmo 文件管理器的统一, 现在改为MB和GB.
 
 交换文件默认位于 /swapfile.
 

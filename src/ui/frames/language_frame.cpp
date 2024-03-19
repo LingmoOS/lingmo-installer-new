@@ -1,9 +1,9 @@
 /*
  * Copyright (C) 2017 ~ 2019 Deepin Technology Co., Ltd.
  *
- * Author:     justforlxz <zhangdingyuan@deepin.com>
+ * Author:     justforlxz <zhangdingyuan@lingmo.com>
  *
- * Maintainer: justforlxz <zhangdingyuan@deepin.com>
+ * Maintainer: justforlxz <zhangdingyuan@lingmo.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

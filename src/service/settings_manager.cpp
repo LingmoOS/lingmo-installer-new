@@ -46,9 +46,9 @@ const char kLocaleKey[] = "DI_LOCALE";
 
 // Absolute path to installer config file.
 #ifdef QT_DEBUG
-const char kInstallerConfigFile[] = "/tmp/deepin-installer.conf";
+const char kInstallerConfigFile[] = "/tmp/lingmo-installer.conf";
 #else
-const char kInstallerConfigFile[] = "/etc/deepin-installer.conf";
+const char kInstallerConfigFile[] = "/etc/lingmo-installer.conf";
 #endif // QT_DEBUG
 
 // Absolute path to default installer settings

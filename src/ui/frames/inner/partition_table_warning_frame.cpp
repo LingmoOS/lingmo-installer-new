@@ -59,7 +59,7 @@ void PartitionTableWarningFrame::changeEvent(QEvent* event) {
     list_item1_->setText(
         QString("1.%1\n2.%2")
             .arg(tr("Reboot, enter BIOS, and disable UEFI"))
-            .arg(tr("Exit BIOS, and enter deepin to install")));
+            .arg(tr("Exit BIOS, and enter lingmo to install")));
     list_title2_->setText(QString("B.%1").arg(tr("Format the disk")));
     list_item2_->setText(
         QString("1.%1\n2.%2")
@@ -115,7 +115,7 @@ void PartitionTableWarningFrame::initUI() {
   list_item1_ = new QLabel(
       QString("1.%1\n2.%2")
           .arg(tr("Reboot, enter BIOS, and disable UEFI"))
-          .arg(tr("Exit BIOS, and enter deepin to install")),
+          .arg(tr("Exit BIOS, and enter lingmo to install")),
       this);
   list_item1_->setObjectName("list_item1");
   list_item1_->setWordWrap(true);

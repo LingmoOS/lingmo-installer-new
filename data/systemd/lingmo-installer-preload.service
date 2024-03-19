@@ -1,0 +1,16 @@
+[Unit]
+Description=lingmo installer pre
+DefaultDependencies=no
+ConditionKernelCommandLine=|livecd-installer
+ConditionKernelCommandLine=|auto-lingmo-installer
+Conflicts=shutdown.target
+Wants=systemd-udevd.service systemd-udev-trigger.service
+After=basic.target
+
+[Service]
+Type=oneshot
+ExecStart=-/bin/systemctl isolate lingmo-installer.target
+RemainAfterExit=yes
+
+[Install]
+WantedBy=basic.target

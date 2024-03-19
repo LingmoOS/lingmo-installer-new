@@ -46,7 +46,7 @@ class SystemInfoFrame;
 class TimezoneFrame;
 class VirtualMachineFrame;
 
-// MainWindow is a fullscreen window of deepin-installer.
+// MainWindow is a fullscreen window of lingmo-installer.
 // All of ui frames are placed in MainWindow.
 // It does following jobs:
 //   * draw window background with a blur image;

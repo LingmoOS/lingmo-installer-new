@@ -51,9 +51,9 @@ const int kSettingsPageId = 2;
 // Same in service/settings_manager.cpp.
 
 #ifdef QT_DEBUG
-const char kInstallerConfigFile[] = "/tmp/deepin-installer.conf";
+const char kInstallerConfigFile[] = "/tmp/lingmo-installer.conf";
 #else
-const char kInstallerConfigFile[] = "/etc/deepin-installer.conf";
+const char kInstallerConfigFile[] = "/etc/lingmo-installer.conf";
 #endif // QT_DEBUG
 
 }  // namespace

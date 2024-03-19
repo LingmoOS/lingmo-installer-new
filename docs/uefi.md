@@ -6,10 +6,10 @@
 
 ## shim
 
-### 生成deepin uefi ca
+### 生成lingmo uefi ca
 
 ### 生成shimx64.efi
-将 `deepin-uefi-ca.der` 放到 shim/debian, 然后编译shim项目
+将 `lingmo-uefi-ca.der` 放到 shim/debian, 然后编译shim项目
 
 ### 转换格式
 将 shimx64.efi 转成cab格式: `lcab shimx64-unsigned.efi shimx64-unsigned.cab`
@@ -38,14 +38,14 @@ There were certs or crls included.
 ### 生成 grub EFI 文件
 使用以下命令, 可以生成定制的 grub EFI 文件
 ```bash
-grub-mkimage -o bootx64.efi -O x86_64-efi -p /EFI/deepin ntfs hfs appleldr \
+grub-mkimage -o bootx64.efi -O x86_64-efi -p /EFI/lingmo ntfs hfs appleldr \
   boot cat efi_gop efi_uga elf fat hfsplus iso9660 linux keylayouts memdisk \
   minicmd part_apple ext2 extcmd xfs xnu part_bsd part_gpt search \
   search_fs_file chain btrfs loadbios loadenv lvm minix minix2 reiserfs \
   memrw mmap msdospart scsi loopback normal configfile gzio all_video efi_gop \
   efi_uga gfxterm gettext echo boot chain eval ls test sleep png gfxmenu
 ```
-其中, -p /EFI/deepin 指定了签名文件的目录路径为 /EFI/deepin.
+其中, -p /EFI/lingmo 指定了签名文件的目录路径为 /EFI/lingmo.
 
 ### 为 grubx64.efi 签名
 

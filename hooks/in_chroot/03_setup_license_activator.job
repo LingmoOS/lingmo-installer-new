@@ -16,18 +16,18 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Install deepin-license-activator in Professional version
+# Install lingmo-license-activator in Professional version
 
 install_activator() {
-  msg "Install deepin-license-activator"
+  msg "Install lingmo-license-activator"
   apt-get install --no-install-recommends -y --force-yes \
-    --allow-unauthenticated  deepin-license-activator
+    --allow-unauthenticated  lingmo-license-activator
 }
 
 install_activation_key() {
   readonly SRC_KEY=${OEM_DIR}/license.key
-  readonly DST_KEY=/var/deepin/license.key
-  mkdir -pv /var/deepin
+  readonly DST_KEY=/var/lingmo/license.key
+  mkdir -pv /var/lingmo
   if [ -f "${SRC_KEY}" ]; then
     msg "Install activation key to ${DST_KEY}"
     install -v -m644 "${SRC_KEY}" "${DST_KEY}"
@@ -35,7 +35,7 @@ install_activation_key() {
 }
 
 main() {
-  if grep -qr "Professional" /etc/deepin-version 2>/dev/null; then
+  if grep -qr "Professional" /etc/lingmo-version 2>/dev/null; then
     install_activator
     install_activation_key
   fi

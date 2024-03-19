@@ -27,15 +27,15 @@
  命令来生成模糊图片. 如果 ISO中 集成的系统默认壁纸发生了变化, 也需要在这里更新
  安装器的背景图.
 * 桌面背景. 放到 `oem/background.jpg`.
-* Logo. 在语言选择页面的正上方, 会显示系统 logo, 默认是 deepin 的官方logo,
+* Logo. 在语言选择页面的正上方, 会显示系统 logo, 默认是 lingmo 的官方logo,
  如果需要自定义, 可以放到 `oem/vendor.png`.
 * 应用图标. `oem/icons/` 目录用于存放应用图标, 其目录结构应与
  `/usr/share/icons/hicolor` 相同.
 * GRUB引导画面背景. 可以把图片放到 `oem/grub.jpg`.
 * 登录界面背景. 可以放到 `oem/lightdm.png`
-* plymouth 开机动画是一系统图片组成的, 放到 `oem/plymouth-theme/deepin-logo/`
- 目录中. 可以参考 `plymouth-theme-deepin-logo` 这个deb包的结构.
-* deepin 控制中心和桌面登录界面中用到的logo, 可以放到 oem/vendor.png
+* plymouth 开机动画是一系统图片组成的, 放到 `oem/plymouth-theme/lingmo-logo/`
+ 目录中. 可以参考 `plymouth-theme-lingmo-logo` 这个deb包的结构.
+* lingmo 控制中心和桌面登录界面中用到的logo, 可以放到 oem/vendor.png
 * 光盘启动动画. 待补充.
 
 ## 安装过程中的幻灯片展示
@@ -47,9 +47,9 @@
 slide 目录的结果应该与 resources/slide 目录相同.
 比如, 简体中文界面, 幻灯片的查找顺序依次是:
 * ISO_ROOT/oem/slide/zh_CN
-* /usr/share/deepin-installer/resources/slide/zh_CN
+* /usr/share/lingmo-installer/resources/slide/zh_CN
 * ISO_ROOT/oem/slide/default
-* /usr/share/deepin-installer/resources/slide/default
+* /usr/share/lingmo-installer/resources/slide/default
 
 ## 任务栏默认图标和顺序
 在配置文件里面修改 `launcher_apps_in_launcher` 即可.
@@ -58,7 +58,7 @@ slide 目录的结果应该与 resources/slide 目录相同.
 需要把 `skip_partition_page` 设置为`1`, 然后把 `partition_do_auto_part`
 设置为 `1`. 安装器自带的自动分区的脚本位于 `hooks/auto_part.sh`, 也可以自定义
 自动分区脚本, 把需要分区的操作写到 `oem/auto_part.sh` 这个脚本文件里.
-分区操作使用 `parted` 命令, 同时, 记得把分区结果写入到 `/etc/deepin-installer.conf`
+分区操作使用 `parted` 命令, 同时, 记得把分区结果写入到 `/etc/lingmo-installer.conf`
 这个配置文件里.
 
 ## 全盘分区
@@ -98,8 +98,8 @@ slide 目录的结果应该与 resources/slide 目录相同.
 
 
 ## 系统基本信息
-* `system_info_deepin_version` 这一项保存了 `/etc/deepin-version` 的内容,
- 系统更新时, 应该先读取这个项的值, 再写入到 `/etc/deepin-version` 中. 它的值
+* `system_info_lingmo_version` 这一项保存了 `/etc/lingmo-version` 的内容,
+ 系统更新时, 应该先读取这个项的值, 再写入到 `/etc/lingmo-version` 中. 它的值
  是经过 base64 编码的. * `system_info_lsb_release` 这一项保存了
  `/etc/lsb-release` 的内容, 系统更新时, 应该先读取这个项的值,
  再写入到 `/etc/lsb-release` 中. 它的值是经过 base64 编码的.

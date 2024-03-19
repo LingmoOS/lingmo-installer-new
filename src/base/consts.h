@@ -27,7 +27,7 @@ const char kAppVersion[] = VERSION;
 // Default locale used in program.
 const char kDefaultLang[] = "en_US.UTF-8";
 
-const char kOrganizationDomain[] = "deepin.org";
+const char kOrganizationDomain[] = "lingmo.org";
 
 }
 

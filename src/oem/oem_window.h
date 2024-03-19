@@ -26,7 +26,7 @@ namespace installer {
 class OemSettingsItemView;
 class OemSettingsModel;
 
-// Main window of deepin-installer-oem tool.
+// Main window of lingmo-installer-oem tool.
 class OemWindow : public QFrame {
   Q_OBJECT
 

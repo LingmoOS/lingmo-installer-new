@@ -12,18 +12,18 @@
 greeter-user=root
 
 [Seat:*]
-greeter-session=deepin-installer-greeter
+greeter-session=lingmo-installer-greeter
 EOF
 
 ```
 
-再生成 deepin-installer-greeter.desktop
+再生成 lingmo-installer-greeter.desktop
 ```shell
-# cat > /usr/share/xgreeters/deepin-installer-greeter.desktop << EOF
+# cat > /usr/share/xgreeters/lingmo-installer-greeter.desktop << EOF
 [Desktop Entry]
 Name=LightDM GTK+ Greeter
 Comment=This runs the GTK+ greeter, it should only be run from LightDM
-Exec=deepin-installer
+Exec=lingmo-installer
 Type=Application
 X-Ubuntu-Gettext-Domain=lightdm
 EOF
@@ -33,7 +33,7 @@ EOF
 只需要生成 lightdm.conf
 ```shell
 # cat > /etc/lightdm/lightdm.conf << EOF
-greeter-setup-script=/usr/bin/deepin-installer
+greeter-setup-script=/usr/bin/lingmo-installer
 EOF
 ```
 因为 lightdm 会以 root 的身份运行 greeter-setup-script 指向的脚本.

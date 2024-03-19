@@ -18,8 +18,8 @@
 
 # Refresh desktop cache
 
-DB_PATH=/var/cache/deepin-store/new-desktop.db
-DSTORE_BACKEND=/usr/lib/deepin-store/deepin-store-backend
+DB_PATH=/var/cache/lingmo-store/new-desktop.db
+DSTORE_BACKEND=/usr/lib/lingmo-store/lingmo-store-backend
 [ -e "${DB_PATH}" ] && rm -f "${DB_PATH}"
 [ -x "${DSTORE_BACKEND}" ] && "${DSTORE_BACKEND}" --init
 

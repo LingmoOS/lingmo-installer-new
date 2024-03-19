@@ -40,7 +40,7 @@ const char kZoneTabFile[] = "/usr/share/zoneinfo/zone.tab";
 const char kTimezoneAliasFile[] = RESOURCES_DIR "/timezone_alias";
 
 // Domain name for timezones.
-const char kTimezoneDomain[] = "deepin-installer-timezones";
+const char kTimezoneDomain[] = "lingmo-installer-timezones";
 
 // Parse latitude and longitude of the zone's principal location.
 // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones.

@@ -20,9 +20,9 @@
 
 fc-cache
 
-#make 32bit cache for deepin-wine
-if [ -f /opt/deepinwine/tools/fontconfig ]; then
-  /opt/deepinwine/tools/fontconfig
+#make 32bit cache for lingmo-wine
+if [ -f /opt/lingmowine/tools/fontconfig ]; then
+  /opt/lingmowine/tools/fontconfig
 fi
 
 return 0

@@ -26,7 +26,7 @@ namespace {
 
 // Cache output of `os-prober` command.
 QString ReadOsProberOutput() {
-  const QString cache_path("/tmp/deepin-installer-os-prober.conf");
+  const QString cache_path("/tmp/lingmo-installer-os-prober.conf");
   if (QFile::exists(cache_path)) {
     return ReadFile(cache_path);
   } else {
@@ -46,7 +46,7 @@ QString ReadOsProberOutput() {
     if (!CreateParentDirs(partman_flag)) {
       qWarning() << "Failed to create parent folder of: " << partman_flag;
     }
-    WriteTextFile(partman_flag, "deepin-installer");
+    WriteTextFile(partman_flag, "lingmo-installer");
 
     // run os-prober again after ignore_uefi created, so windows installed
     // in legacy mode will be found.

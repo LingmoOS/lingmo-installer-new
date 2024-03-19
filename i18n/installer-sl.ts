@@ -250,8 +250,8 @@
     <message>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
-        <source>You can experience the incredible pleasure of deepin after the time for just a cup of coffee</source>
-        <translation>Neverjetno prijetno uporabo deepina boste lahko izkusili po krajšem odmoru za kavico</translation>
+        <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
+        <translation>Neverjetno prijetno uporabo lingmoa boste lahko izkusili po krajšem odmoru za kavico</translation>
     </message>
 </context>
 <context>
@@ -265,8 +265,8 @@
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
-        <source>Reboot to enjoy the new experience with deepin, hope you like it!</source>
-        <translation>Če želite uporabljati deepin, ponovno zaženite napravo. Upamo, da boste uživali!</translation>
+        <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
+        <translation>Če želite uporabljati lingmo, ponovno zaženite napravo. Upamo, da boste uživali!</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -607,8 +607,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
-        <source>It needs more than %1GB disk space to install deepin, for better performance, %2GB and more space is recommended</source>
-        <translation>Namestitev deepina zahteva vsaj %1GB prostora, vendar je za večjo učinkovitost potrebno več kot %2GB</translation>
+        <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
+        <translation>Namestitev lingmoa zahteva vsaj %1GB prostora, vendar je za večjo učinkovitost potrebno več kot %2GB</translation>
     </message>
 </context>
 <context>
@@ -676,8 +676,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
-        <source>Windows will not boot if install deepin on Windows disk, please confirm to continue</source>
-        <translation>Windows se ne bo zagnal, če namestite deepin na Windowsov disk, prosim potrdite za nadaljevanje</translation>
+        <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
+        <translation>Windows se ne bo zagnal, če namestite lingmo na Windowsov disk, prosim potrdite za nadaljevanje</translation>
     </message>
 </context>
 <context>
@@ -860,8 +860,8 @@
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
-        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install deepin in real-machine environment</source>
-        <translation>System je opazil, da uporabljate virtualno napravo, kar bo vplivalo na učinkovitost sistema in operacijsko izkušnjo. Za nemoteno delovanje priporočamo, da namestite deepin na stvarno napravo.</translation>
+        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
+        <translation>System je opazil, da uporabljate virtualno napravo, kar bo vplivalo na učinkovitost sistema in operacijsko izkušnjo. Za nemoteno delovanje priporočamo, da namestite lingmo na stvarno napravo.</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -1045,8 +1045,8 @@
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
-        <source>Exit BIOS, and enter deepin to install</source>
-        <translation>Zapustite BIOS in podjite v deepin, da začnete namestitev</translation>
+        <source>Exit BIOS, and enter lingmo to install</source>
+        <translation>Zapustite BIOS in podjite v lingmo, da začnete namestitev</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

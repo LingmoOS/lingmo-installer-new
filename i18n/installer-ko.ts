@@ -250,7 +250,7 @@
     <message>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
-        <source>You can experience the incredible pleasure of deepin after the time for just a cup of coffee</source>
+        <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
         <translation>커피 한잔 마실 정도의 시간이 지나면, Deepin의 놀라운 즐거움을 경험할 수 있습니다.</translation>
     </message>
 </context>
@@ -265,7 +265,7 @@
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
-        <source>Reboot to enjoy the new experience with deepin, hope you like it!</source>
+        <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
         <translation>Deepin으로 새로운 경험을 즐기려면 재부팅하세요. 마음에 드셨으면 좋겠네요!</translation>
     </message>
     <message>
@@ -607,7 +607,7 @@
     </message>
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
-        <source>It needs more than %1GB disk space to install deepin, for better performance, %2GB and more space is recommended</source>
+        <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
         <translation>Deepin을 설치하려면 %1GB 이상의 디스크 공간이 필요합니다. 성능을 향상시키려면 %2GB 이상의 공간이 권장됩니다.</translation>
     </message>
 </context>
@@ -676,8 +676,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
-        <source>Windows will not boot if install deepin on Windows disk, please confirm to continue</source>
-        <translation>Windows 디스크에 deepin을 설치하면 Windows가 부팅되지 않습니다. 계속 진행하려면 확인하세요</translation>
+        <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
+        <translation>Windows 디스크에 lingmo을 설치하면 Windows가 부팅되지 않습니다. 계속 진행하려면 확인하세요</translation>
     </message>
 </context>
 <context>
@@ -860,7 +860,7 @@
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
-        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install deepin in real-machine environment</source>
+        <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
         <translation>시스템에서 시스템 성능 및 작업 환경에 영향을 미치는 가상 시스템을 사용하고 있음을 감지했으므로, 원활한 환경을 위해 실제 시스템 환경에 Deepin을 설치하는 것을 권장합니다</translation>
     </message>
     <message>
@@ -1045,8 +1045,8 @@
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
-        <source>Exit BIOS, and enter deepin to install</source>
-        <translation>BIOS를 종료하고, deepin을 입력하여 설치</translation>
+        <source>Exit BIOS, and enter lingmo to install</source>
+        <translation>BIOS를 종료하고, lingmo을 입력하여 설치</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

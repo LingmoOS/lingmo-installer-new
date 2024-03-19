@@ -34,7 +34,7 @@ const char kAfterChrootDir[] = "after_chroot";
 
 const char kTargetHooksDir[] = "/tmp/installer";
 const char kChrootTargetHooksDir[] = "/target/tmp/installer";
-const char kChrootCheckModeHooksDir[] = "/target/deepin-installer";
+const char kChrootCheckModeHooksDir[] = "/target/lingmo-installer";
 
 bool AddExecutable(const QString& path, bool recursive) {
   if (recursive) {

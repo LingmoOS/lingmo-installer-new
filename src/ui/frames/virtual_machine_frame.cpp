@@ -41,7 +41,7 @@ void VirtualMachineFrame::changeEvent(QEvent* event) {
     comment_label_->setText(
         tr("System has detected that you are using a virtual machine, "
            "which will affect the system performance and operation experience, "
-           "for a smooth experience, it is recommended to install deepin "
+           "for a smooth experience, it is recommended to install lingmo "
            "in real-machine environment"));
     next_button_->setText(tr("Continue"));
   } else {
@@ -59,7 +59,7 @@ void VirtualMachineFrame::initUI() {
   comment_label_ = new CommentLabel(
       tr("System has detected that you are using a virtual machine, "
          "which will affect the system performance and operation experience, "
-         "for a smooth experience, it is recommended to install deepin "
+         "for a smooth experience, it is recommended to install lingmo "
          "in real-machine environment"));
   QHBoxLayout* comment_layout = new QHBoxLayout();
   comment_layout->setContentsMargins(0, 0, 0, 0);

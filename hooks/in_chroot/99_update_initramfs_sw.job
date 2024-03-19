@@ -62,7 +62,7 @@ done
 
 sed -i "/overlayfs/d" /etc/fstab
 
-DI_ROOT_PARTITION=$(cat /deepinhost/etc/deepin-installer.conf | \
+DI_ROOT_PARTITION=$(cat /lingmohost/etc/lingmo-installer.conf | \
   grep "^DI_ROOT_PARTITION=" | awk -F'=' '{print $2}')
 LOCALUUID=$(blkid -s UUID -o value ${DI_ROOT_PARTITION})
 
@@ -87,7 +87,7 @@ elif [ -f ${SRCPATH}/grub.cfg.head ]; then
   done
 fi
 
-if cat /deepinhost/etc/deepin-installer.conf | grep DI_MOUNTPOINTS | \
+if cat /lingmohost/etc/lingmo-installer.conf | grep DI_MOUNTPOINTS | \
   grep -q -e "=/boot;" -e "=/boot$"; then
     msg "/boot split detected"
    cd /boot 

@@ -45,8 +45,8 @@ execute_process(COMMAND uname -m
 message("build arch: ${INSTALLER_BUILD_ARCH}")
 
 set(IS_PROFESSIONAL FALSE)
-if (EXISTS "/etc/deepin-version")
-  file(STRINGS "/etc/deepin-version" IS_PROFESSIONAL REGEX "Type *= *Professional")
+if (EXISTS "/etc/lingmo-version")
+  file(STRINGS "/etc/lingmo-version" IS_PROFESSIONAL REGEX "Type *= *Professional")
   if(IS_PROFESSIONAL)
       add_definitions("-DPROFESSIONAL")
   endif()
@@ -54,7 +54,7 @@ endif()
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-set(INSTALLER_SHARE_DIR ${CMAKE_INSTALL_PREFIX}/share/deepin-installer)
+set(INSTALLER_SHARE_DIR ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer)
 
 # Install settings
 if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
@@ -499,8 +499,8 @@ set_source_files_properties(${INSTALLER_TRANSLATION_TS}
 qt5_add_translation(INSTALLER_TRANSLATION_QM ${INSTALLER_TRANSLATION_TS})
 add_custom_target(installer-qm-update DEPENDS ${INSTALLER_TRANSLATION_QM})
 
-add_executable(deepin-installer
-               app/deepin_installer.cpp
+add_executable(lingmo-installer
+               app/lingmo_installer.cpp
                ui/main_window.cpp
                ui/main_window.h
 
@@ -515,27 +515,27 @@ add_executable(deepin-installer
                third_party/qtermwidget/lib/kb-layouts/kb-layouts.qrc
                )
 
-target_link_libraries(deepin-installer ${LINK_LIBS})
-add_dependencies(deepin-installer installer-qm-update)
+target_link_libraries(lingmo-installer ${LINK_LIBS})
+add_dependencies(lingmo-installer installer-qm-update)
 
 
 # Set/get ini files.
-add_executable(deepin-installer-settings
-               app/deepin_installer_settings.cpp)
+add_executable(lingmo-installer-settings
+               app/lingmo_installer_settings.cpp)
 
-target_link_libraries(deepin-installer-settings ${QtCore_LIBS})
+target_link_libraries(lingmo-installer-settings ${QtCore_LIBS})
 
-add_executable(deepin-installer-simpleini
-               app/deepin_installer_simpleini.cpp)
+add_executable(lingmo-installer-simpleini
+               app/lingmo_installer_simpleini.cpp)
 
-target_link_libraries(deepin-installer-simpleini
+target_link_libraries(lingmo-installer-simpleini
                       ${QtCore_LIBS}
                       simpleini)
 
 
 # Reboot setup
-add_executable(deepin-installer-first-boot
-               app/deepin_installer_first_boot.cpp
+add_executable(lingmo-installer-first-boot
+               app/lingmo_installer_first_boot.cpp
                ui/first_boot_setup_window.cpp
                ui/first_boot_setup_window.h
 
@@ -545,13 +545,13 @@ add_executable(deepin-installer-first-boot
                ${SYSINFO_FILES}
                ${UI_FILES}
                )
-target_link_libraries(deepin-installer-first-boot
+target_link_libraries(lingmo-installer-first-boot
                       ${LINK_LIBS}
                       global_shortcut
                       )
 
-add_executable(deepin-installer-user-form
-               app/deepin_installer_user_form.cpp
+add_executable(lingmo-installer-user-form
+               app/lingmo_installer_user_form.cpp
                ${BASE_FILES}
 
                service/settings_manager.cpp
@@ -618,11 +618,11 @@ add_executable(deepin-installer-user-form
                ui/styles/styles.qrc
                license/license.qrc
                )
-target_link_libraries(deepin-installer-user-form ${LINK_LIBS})
+target_link_libraries(lingmo-installer-user-form ${LINK_LIBS})
 
-# deepin-installer-oem
-add_executable(deepin-installer-oem
-               app/deepin_installer_oem.cpp
+# lingmo-installer-oem
+add_executable(lingmo-installer-oem
+               app/lingmo_installer_oem.cpp
                oem/oem_window.cpp
                oem/oem_window.h
 
@@ -634,24 +634,24 @@ add_executable(deepin-installer-oem
                ${OEM_FILES}
                ${SYSINFO_FILES}
                )
-target_link_libraries(deepin-installer-oem ${Qt_LIBS})
+target_link_libraries(lingmo-installer-oem ${Qt_LIBS})
 
-add_executable(deepin-installer-unsquashfs
+add_executable(lingmo-installer-unsquashfs
 
-               app/deepin_installer_unsquashfs.cpp
+               app/lingmo_installer_unsquashfs.cpp
                ${BASE_FILES}
                )
-target_link_libraries(deepin-installer-unsquashfs ${Qt_LIBS})
+target_link_libraries(lingmo-installer-unsquashfs ${Qt_LIBS})
 
 # xrandr-switchy
-add_executable(deepin-installer-xrandr-switchy
+add_executable(lingmo-installer-xrandr-switchy
                ui/tests/xrandr_switchy.cpp
 
                ${BASE_FILES}
                ui/xrandr/xrandr_wrapper.cpp
                ui/xrandr/xrandr_wrapper.h
                )
-target_link_libraries(deepin-installer-xrandr-switchy
+target_link_libraries(lingmo-installer-xrandr-switchy
                       ${QtCore_LIBS}
 
                       ${X11_LIBRARIES}
@@ -661,12 +661,12 @@ target_link_libraries(deepin-installer-xrandr-switchy
                       )
 
 # Unsquashfs progress
-#add_executable(deepin-installer-unsquashfs-progress
+#add_executable(lingmo-installer-unsquashfs-progress
 #
 #               app/unsquashfs_progress.cpp
 #               ${BASE_FILES}
 #               )
-#target_link_libraries(deepin-installer-unsquashfs-progress ${QtCore_LIBS})
+#target_link_libraries(lingmo-installer-unsquashfs-progress ${QtCore_LIBS})
 
 
 # test reboot system
@@ -849,7 +849,7 @@ add_executable(partition-util-test
 target_link_libraries(partition-util-test ${Qt_LIBS})
 
 # Unittest
-add_executable(deepin-installer-tests
+add_executable(lingmo-installer-tests
                app/unittest_main.cpp
 
                ${BASE_FILES}
@@ -867,13 +867,13 @@ add_executable(deepin-installer-tests
                ui/delegates/timezone_map_util.cpp
                ui/delegates/timezone_map_util.h
                )
-target_link_libraries(deepin-installer-tests
+target_link_libraries(lingmo-installer-tests
                       ${LINK_LIBS}
                       gtest
                       )
 
 # Unittest with root privilege
-add_executable(deepin-installer-root-tests
+add_executable(lingmo-installer-root-tests
                app/root_unittest_main.cpp
 
                ${BASE_FILES}
@@ -881,7 +881,7 @@ add_executable(deepin-installer-root-tests
                ${SYSINFO_FILES}
                ${ROOT_UNITTEST_FILES}
                )
-target_link_libraries(deepin-installer-root-tests
+target_link_libraries(lingmo-installer-root-tests
                       ${LINK_LIBS}
                       gtest
                       )
@@ -904,20 +904,20 @@ target_link_libraries(unsquashfs_gui ${Qt_LIBS})
 
 ## Installation
 install(PROGRAMS
-        ${CMAKE_CURRENT_SOURCE_DIR}/app/deepin-installer-auto-install
-        ${CMAKE_CURRENT_SOURCE_DIR}/app/deepin-installer-first-boot-pkexec
-        ${CMAKE_CURRENT_SOURCE_DIR}/app/deepin-installer-pkexec
+        ${CMAKE_CURRENT_SOURCE_DIR}/app/lingmo-installer-auto-install
+        ${CMAKE_CURRENT_SOURCE_DIR}/app/lingmo-installer-first-boot-pkexec
+        ${CMAKE_CURRENT_SOURCE_DIR}/app/lingmo-installer-pkexec
         DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
         )
 
 install(TARGETS
-        deepin-installer
-        deepin-installer-first-boot
-        deepin-installer-oem
-        deepin-installer-settings
-        deepin-installer-simpleini
-        deepin-installer-unsquashfs
-        deepin-installer-user-form
+        lingmo-installer
+        lingmo-installer-first-boot
+        lingmo-installer-oem
+        lingmo-installer-settings
+        lingmo-installer-simpleini
+        lingmo-installer-unsquashfs
+        lingmo-installer-user-form
         DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
         )
 

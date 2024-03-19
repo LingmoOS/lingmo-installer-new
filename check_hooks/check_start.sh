@@ -1,12 +1,12 @@
 #!/bin/bash
 
-. "/deepin-installer/basic_utils.sh"
+. "/lingmo-installer/basic_utils.sh"
 
 # 这个文件是防止没有成功进到桌面，直接到lightdm_stop.sh了。
 touch /tmp/in_check.file
 
-if [ -d "/deepin-installer/in_check/" ];then
-    for i in /deepin-installer/in_check/*; do
+if [ -d "/lingmo-installer/in_check/" ];then
+    for i in /lingmo-installer/in_check/*; do
         chmod +x $i
         $i
         if [ $? != 0 ]; then
@@ -18,4 +18,4 @@ if [ -d "/deepin-installer/in_check/" ];then
 fi
 
 # logout to run lightdm-stop.sh
-qdbus --literal com.deepin.daemon.Display /com/deepin/SessionManager com.deepin.SessionManager.RequestLogout
+qdbus --literal com.lingmo.daemon.Display /com/lingmo/SessionManager com.lingmo.SessionManager.RequestLogout

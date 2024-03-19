@@ -132,7 +132,7 @@ check_dev () {
 				
 				for _p in $(cat /proc/cmdline);do
 					case ${_p} in 
-						auto-deepin-installer|auto-installer)
+						auto-lingmo-installer|auto-installer)
 						RWFLAG="rw"
 						;;
 					esac

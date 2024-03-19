@@ -37,7 +37,7 @@ namespace {
 QString GetCommentLabel() {
   const int minimum = GetSettingsInt(kPartitionMinimumDiskSpaceRequired);
   const int recommended = GetSettingsInt(kPartitionRecommendedDiskSpace);
-  return QObject::tr("It needs more than %1GB disk space to install deepin, "
+  return QObject::tr("It needs more than %1GB disk space to install lingmo, "
       "for better performance, %2GB and more space is recommended")
       .arg(minimum)
       .arg(recommended);

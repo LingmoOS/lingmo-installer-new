@@ -22,7 +22,7 @@
 # Absolute path to config file.
 # Do not read/write this file directly, call installer_get and installer_set
 # instead.
-CONF_FILE=/etc/deepin-installer.conf
+CONF_FILE=/etc/lingmo-installer.conf
 
 . ./basic_utils.sh
 
@@ -47,15 +47,15 @@ uninstall_installer() {
   # NOTE(xushaohua): Remove dependencies of installer by hand.
   # Until state of packages are correctly marked in ISO.
   if detect_btrfs; then
-    apt-get -y purge deepin-installer tshark wireshark-common
+    apt-get -y purge lingmo-installer tshark wireshark-common
   else
-    apt-get -y purge deepin-installer btrfs-tools tshark wireshark-common
+    apt-get -y purge lingmo-installer btrfs-tools tshark wireshark-common
   fi
   apt-get -y autoremove --purge
 }
 
 # Replace lightdm.conf with lightdm.conf.real.
-cleanup_lightdm_deepin_installer() {
+cleanup_lightdm_lingmo_installer() {
   local CONF_FILE=/etc/lightdm/lightdm.conf
   local TEMP_CONF_FILE=/etc/lightdm/lightdm.conf.real
   if [ -f "${TEMP_CONF_FILE}" ]; then
@@ -64,20 +64,20 @@ cleanup_lightdm_deepin_installer() {
 }
 
 cleanup_first_boot() {
-  local FILE=/etc/deepin-installer-first-boot
+  local FILE=/etc/lingmo-installer-first-boot
   [ -f "${FILE}" ] && rm -f "${FILE}"
 
-  if [ -f /lib/systemd/system/deepin-installer.target ]; then
+  if [ -f /lib/systemd/system/lingmo-installer.target ]; then
     # Restore default target of systemd
     systemctl set-default -f graphical.target
   else
     # See in_chroot/generate_reboot_setup_file.job for more info.
-    cleanup_lightdm_deepin_installer
+    cleanup_lightdm_lingmo_installer
   fi
 }
 
 main() {
-  [ -f "${CONF_FILE}" ] || error "deepin-installer.conf not found"
+  [ -f "${CONF_FILE}" ] || error "lingmo-installer.conf not found"
   cat "${CONF_FILE}"
 
   generate_machine_id
