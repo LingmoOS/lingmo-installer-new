@@ -251,7 +251,7 @@
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
         <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
-        <translation>Nach einer Tasse Kaffee können Sie das unglaubliche Vergnügen von Deepin erleben.</translation>
+        <translation>Nach einer Tasse Kaffee können Sie das unglaubliche Vergnügen von Lingmo erleben.</translation>
     </message>
 </context>
 <context>
@@ -266,7 +266,7 @@
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
         <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
-        <translation>Starten Sie Ihren Computer neu, um Deepin zu starten. 
+        <translation>Starten Sie Ihren Computer neu, um Lingmo zu starten. 
 Wir wünschen viel Spaß!</translation>
     </message>
     <message>
@@ -609,7 +609,7 @@ Wir wünschen viel Spaß!</translation>
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
         <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
-        <translation>Für die Installation von Deepin wird mindestens %1GB Festplattenspeicher benötigt. Für bessere Leistung werden %2GB oder mehr empfohlen.</translation>
+        <translation>Für die Installation von Lingmo wird mindestens %1GB Festplattenspeicher benötigt. Für bessere Leistung werden %2GB oder mehr empfohlen.</translation>
     </message>
 </context>
 <context>
@@ -648,8 +648,8 @@ Wir wünschen viel Spaß!</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
-        <translation>Deepin Software Endbenutzer-Lizenzvertrag</translation>
+        <source>Lingmo Software End User License Agreement</source>
+        <translation>Lingmo Software Endbenutzer-Lizenzvertrag</translation>
     </message>
 </context>
 <context>
@@ -678,7 +678,7 @@ Wir wünschen viel Spaß!</translation>
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
         <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
-        <translation>Windows wird nicht mehr starten, wenn Deepin auf der selben Festplatte wie Windows installiert wird. Möchten Sie wirklich fortfahren?</translation>
+        <translation>Windows wird nicht mehr starten, wenn Lingmo auf der selben Festplatte wie Windows installiert wird. Möchten Sie wirklich fortfahren?</translation>
     </message>
 </context>
 <context>
@@ -862,7 +862,7 @@ Wir wünschen viel Spaß!</translation>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
         <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
-        <translation>Das System hat festgestellt, dass es in einer virtualisierten Umgebung installiert werden soll, was sich auf die Systemleistung auswirken wird. Für die beste Benutzererfahrung empfehlen wir Ihnen, Deepin auf einem echten Computer zu installieren.</translation>
+        <translation>Das System hat festgestellt, dass es in einer virtualisierten Umgebung installiert werden soll, was sich auf die Systemleistung auswirken wird. Für die beste Benutzererfahrung empfehlen wir Ihnen, Lingmo auf einem echten Computer zu installieren.</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -882,8 +882,8 @@ Wir wünschen viel Spaß!</translation>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
-        <translation>Legen Sie die Region für die Deepin EndPoint Management Plattform fest.</translation>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
+        <translation>Legen Sie die Region für die Lingmo EndPoint Management Plattform fest.</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="81"/>
@@ -1047,7 +1047,7 @@ Wir wünschen viel Spaß!</translation>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
         <source>Exit BIOS, and enter lingmo to install</source>
-        <translation>BIOS verlassen und zu Deepin wechseln um zu Installieren</translation>
+        <translation>BIOS verlassen und zu Lingmo wechseln um zu Installieren</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

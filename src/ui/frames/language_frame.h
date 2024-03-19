@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 ~ 2019 Deepin Technology Co., Ltd.
+ * Copyright (C) 2017 ~ 2019 Lingmo Technology Co., Ltd.
  *
  * Author:     justforlxz <zhangdingyuan@lingmo.com>
  *

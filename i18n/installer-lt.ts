@@ -647,8 +647,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
-        <translation>Deepin programinės įrangos galutinio naudotojo licencijos sutikimas</translation>
+        <source>Lingmo Software End User License Agreement</source>
+        <translation>Lingmo programinės įrangos galutinio naudotojo licencijos sutikimas</translation>
     </message>
 </context>
 <context>
@@ -881,8 +881,8 @@
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
-        <translation>Nustatyti Deepin galutinio taško tvarkymo platformos sritį</translation>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
+        <translation>Nustatyti Lingmo galutinio taško tvarkymo platformos sritį</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="81"/>

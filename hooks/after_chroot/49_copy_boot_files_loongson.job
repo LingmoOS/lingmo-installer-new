@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
+# Copyright (C) 2017 ~ 2018 Lingmo Technology Co., Ltd.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -115,24 +115,24 @@ else
     fi
 
     echo "
-title Deepin 15.5 SP3 Professional mips64el for Loongson 3A3000
+title Lingmo 15.5 SP3 Professional mips64el for Loongson 3A3000
     initrd /dev/fs/ext2@wd0/boot/$initrd_name
     kernel /dev/fs/ext2@wd0/boot/$kernel_name
     args console=tty loglevel=0 quiet $splash locales=zh_CN.UTF-8 root=$rootuuid
 
-title Deepin Recovery
+title Lingmo Recovery
     initrd /dev/fs/ext2@wd0/boot/lingmo/$initrd_name
     kernel /dev/fs/ext2@wd0/boot/lingmo/$kernel_name
     args boot=live loglevel=0 components $splash toram locales=zh_CN.UTF-8 acpi_backlight=vendor live-media-path=recovery " >> $boot_path/boot.cfg
 
     echo "
-menuentry 'Deepin 15.5 SP3 Professional mips64el for Loongson 3A3000'{
+menuentry 'Lingmo 15.5 SP3 Professional mips64el for Loongson 3A3000'{
 linux \${prefix}/$kernel_name console=tty loglevel=0 quiet $splash locales=zh_CN.UTF-8  root=$rootuuid
 initrd \${prefix}/$initrd_name
 boot
 }
 
-menuentry 'Deepin Recovery'{
+menuentry 'Lingmo Recovery'{
 linux \${prefix}/lingmo/$kernel_name console=tty loglevel=0  $splash toram locales=zh_CN.UTF-8 boot=live components acpi_backlight=vendor live-media-path=recovery
 initrd \${prefix}/lingmo/$initrd_name
 boot

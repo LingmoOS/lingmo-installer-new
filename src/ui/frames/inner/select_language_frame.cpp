@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
+ * Copyright (C) 2017 ~ 2018 Lingmo Technology Co., Ltd.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -195,7 +195,7 @@ void SelectLanguageFrame::updateTranslator(const QString& locale) {
 void SelectLanguageFrame::updateTs() {
   next_button_->setText(tr("Next"));
   accept_license_->setText(tr("I have read and agree to"));
-  license_label_->setText(tr("Deepin Software End User License Agreement"));
+  license_label_->setText(tr("Lingmo Software End User License Agreement"));
 }
 
 void SelectLanguageFrame::onLanguageListSelected(const QModelIndex& current)

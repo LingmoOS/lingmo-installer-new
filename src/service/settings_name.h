@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
+ * Copyright (C) 2017 ~ 2018 Lingmo Technology Co., Ltd.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@ const char kSkipControlPlatformPage[] = "skip_control_platform_page";
 const char kSelectLanguageDefaultLocale[] = "select_language_default_locale";
 
 // System Info
-const char kSystemInfoDeepinVersion[] = "system_info_lingmo_version";
+const char kSystemInfoLingmoVersion[] = "system_info_lingmo_version";
 const char kSystemInfoLsbRelease[] = "system_info_lsb_release";
 const char kSystemInfoVendorName[] = "system_info_vendor_name";
 const char kSystemInfoSetupAfterReboot[] = "system_info_setup_after_reboot";

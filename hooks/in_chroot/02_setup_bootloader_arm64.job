@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
+# Copyright (C) 2017 ~ 2018 Lingmo Technology Co., Ltd.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -61,7 +61,7 @@ case ${BOOT} in
   #  if [ -e /etc/lingmo-version ]; then
   #    _version=$(grep '^Version=' /etc/lingmo-version | cut -d '=' -f2)
   #    _type=$(grep '^Type=' /etc/lingmo-version | cut -d '=' -f2)
-  #    BOOTLOADER_ID="Deepin ${_type} ${_version}"
+  #    BOOTLOADER_ID="Lingmo ${_type} ${_version}"
   #  fi
   #  ;;
   "uefi")
@@ -224,7 +224,7 @@ cat >> /etc/default/grub << EOF
 GRUB_BACKGROUND="/boot/grub/themes/lingmo/background.png"
 GRUB_CMDLINE_LINUX_DEFAULT="${splash} quiet video=VGA-1:1280x1024@60"
 GRUB_DEFAULT=0
-GRUB_DISTRIBUTOR="\`/usr/bin/lsb_release -d -s 2>/dev/null || echo Deepin\`"
+GRUB_DISTRIBUTOR="\`/usr/bin/lsb_release -d -s 2>/dev/null || echo Lingmo\`"
 GRUB_THEME="/boot/grub/themes/lingmo/theme.txt"
 GRUB_TIMEOUT=5
 GRUB_GFXMODE=${DI_CUR_RESOLUTION}

@@ -266,7 +266,7 @@
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
         <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
-        <translation>Рестартирайте за да се насладите на нови преживявания с Deepin. Надяваме се, че ще ви хареса !</translation>
+        <translation>Рестартирайте за да се насладите на нови преживявания с Lingmo. Надяваме се, че ще ви хареса !</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -608,7 +608,7 @@
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
         <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
-        <translation>Необходимо е най-малко %1GB дисково пространство за инсталиране на Deepin, като за по-добра производителност е препоръчително да разполагате с над %2GB</translation>
+        <translation>Необходимо е най-малко %1GB дисково пространство за инсталиране на Lingmo, като за по-добра производителност е препоръчително да разполагате с над %2GB</translation>
     </message>
 </context>
 <context>
@@ -647,8 +647,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
-        <translation>Лицензионно споразумение с краен потребител на софтуера Deepin</translation>
+        <source>Lingmo Software End User License Agreement</source>
+        <translation>Лицензионно споразумение с краен потребител на софтуера Lingmo</translation>
     </message>
 </context>
 <context>
@@ -677,7 +677,7 @@
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
         <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
-        <translation>Windows няма да стартира, ако инсталирате Deepin на диска с Windows, моля потвърдете за да продължите</translation>
+        <translation>Windows няма да стартира, ако инсталирате Lingmo на диска с Windows, моля потвърдете за да продължите</translation>
     </message>
 </context>
 <context>
@@ -861,7 +861,7 @@
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
         <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
-        <translation>Системата установи, че използвате виртуална машина, която ще повлияе на производителността и работата на системата, за безпроблемно преживяване, се препоръчва инсталирането на Deepin върху реална машина</translation>
+        <translation>Системата установи, че използвате виртуална машина, която ще повлияе на производителността и работата на системата, за безпроблемно преживяване, се препоръчва инсталирането на Lingmo върху реална машина</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -881,7 +881,7 @@
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1046,7 +1046,7 @@
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
         <source>Exit BIOS, and enter lingmo to install</source>
-        <translation>Излезте от BiOS и стартирайте инсталацията на Deepin</translation>
+        <translation>Излезте от BiOS и стартирайте инсталацията на Lingmo</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

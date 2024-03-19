@@ -266,7 +266,7 @@
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
         <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
-        <translation>Перезагрузите компьютер, чтобы насладиться новым опытом с Deepin, надеемся что  вам понравится!</translation>
+        <translation>Перезагрузите компьютер, чтобы насладиться новым опытом с Lingmo, надеемся что  вам понравится!</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -647,7 +647,7 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
+        <source>Lingmo Software End User License Agreement</source>
         <translation>Лицензионное Соглашение с Конечным Пользователем</translation>
     </message>
 </context>
@@ -861,7 +861,7 @@
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
         <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
-        <translation>Система обнаружила, что вы используете виртуальную машину, которая будет влиять на производительность и работоспособность системы, для наилучшего результата, рекомендуется установить Deepin на реально работающий компьютер</translation>
+        <translation>Система обнаружила, что вы используете виртуальную машину, которая будет влиять на производительность и работоспособность системы, для наилучшего результата, рекомендуется установить Lingmo на реально работающий компьютер</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -881,8 +881,8 @@
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
-        <translation>Установите регион для платформы управления Deepin EndPoint</translation>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
+        <translation>Установите регион для платформы управления Lingmo EndPoint</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="81"/>
@@ -1046,7 +1046,7 @@
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
         <source>Exit BIOS, and enter lingmo to install</source>
-        <translation>Выйдите из BIOS и начните установку Deepin</translation>
+        <translation>Выйдите из BIOS и начните установку Lingmo</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

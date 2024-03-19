@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
+ * Copyright (C) 2017 ~ 2018 Lingmo Technology Co., Ltd.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
   QApplication app(argc, argv);
   app.setAttribute(Qt::AA_UseHighDpiPixmaps);
   app.setAttribute(Qt::AA_EnableHighDpiScaling);
-  app.setApplicationDisplayName("Deepin Installer Reborn");
+  app.setApplicationDisplayName("Lingmo Installer Reborn");
   app.setApplicationName("lingmo-installer");
   app.setApplicationVersion(installer::kAppVersion);
   app.setOrganizationDomain(installer::kOrganizationDomain);

@@ -251,7 +251,7 @@
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
         <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
-        <translation>Voit kokea uskomattoman Deepin:in nautinnon vain kahvikupin juomisen jälkeen</translation>
+        <translation>Voit kokea uskomattoman Lingmo:in nautinnon vain kahvikupin juomisen jälkeen</translation>
     </message>
 </context>
 <context>
@@ -266,7 +266,7 @@
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
         <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
-        <translation>Käynnistä uudelleen nauttiaksesi uudesta kokemuksesta Deepin:in kanssa, toivomme että pidät siitä!</translation>
+        <translation>Käynnistä uudelleen nauttiaksesi uudesta kokemuksesta Lingmo:in kanssa, toivomme että pidät siitä!</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -608,7 +608,7 @@
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
         <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
-        <translation>Deepin:in asennukseen tarvitaan enemmän kuin %1 GB levytilaa. Paremman suorituskyvyn vuoksi vähintään %2 GB on suositeltavaa</translation>
+        <translation>Lingmo:in asennukseen tarvitaan enemmän kuin %1 GB levytilaa. Paremman suorituskyvyn vuoksi vähintään %2 GB on suositeltavaa</translation>
     </message>
 </context>
 <context>
@@ -647,8 +647,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
-        <translation>Deepin ohjelmiston loppukäyttäjän lisenssisopimus</translation>
+        <source>Lingmo Software End User License Agreement</source>
+        <translation>Lingmo ohjelmiston loppukäyttäjän lisenssisopimus</translation>
     </message>
 </context>
 <context>
@@ -677,7 +677,7 @@
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
         <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
-        <translation>Windows ei tule käynnistymään jos asennat Deepin:in Windows:in sisältävälle levylle, ole hyvä ja vahvista jatkaaksesi</translation>
+        <translation>Windows ei tule käynnistymään jos asennat Lingmo:in Windows:in sisältävälle levylle, ole hyvä ja vahvista jatkaaksesi</translation>
     </message>
 </context>
 <context>
@@ -861,7 +861,7 @@
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="42"/>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="60"/>
         <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to install lingmo in real-machine environment</source>
-        <translation>Järjestelmä on havainnut, että käytät virtuaalikonetta, joka vaikuttaa järjestelmän suorituskykyyn ja käyttökokemukseen. Moitteettoman kokemuksen takaamiseksi olisi suositeltavaa asentaa Deepin todelliseen koneympäristöön</translation>
+        <translation>Järjestelmä on havainnut, että käytät virtuaalikonetta, joka vaikuttaa järjestelmän suorituskykyyn ja käyttökokemukseen. Moitteettoman kokemuksen takaamiseksi olisi suositeltavaa asentaa Lingmo todelliseen koneympäristöön</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/virtual_machine_frame.cpp" line="46"/>
@@ -881,8 +881,8 @@
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
-        <translation>Aseta alue Deepin EndPoint -hallintaympäristölle</translation>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
+        <translation>Aseta alue Lingmo EndPoint -hallintaympäristölle</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="81"/>
@@ -1046,7 +1046,7 @@
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
         <source>Exit BIOS, and enter lingmo to install</source>
-        <translation>Poistu BIOSista ja asenna Deepin</translation>
+        <translation>Poistu BIOSista ja asenna Lingmo</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

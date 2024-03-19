@@ -251,7 +251,7 @@
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="129"/>
         <location filename="../src/ui/frames/install_progress_frame.cpp" line="154"/>
         <source>You can experience the incredible pleasure of lingmo after the time for just a cup of coffee</source>
-        <translation>Você pode experimentar o incrível prazer do Deepin após o tempo de apenas uma xícara de café</translation>
+        <translation>Você pode experimentar o incrível prazer do Lingmo após o tempo de apenas uma xícara de café</translation>
     </message>
 </context>
 <context>
@@ -266,7 +266,7 @@
         <location filename="../src/ui/frames/install_success_frame.cpp" line="43"/>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="63"/>
         <source>Reboot to enjoy the new experience with lingmo, hope you like it!</source>
-        <translation>Reinicie para aproveitar a nova experiência com o Deepin. Esperamos que goste!</translation>
+        <translation>Reinicie para aproveitar a nova experiência com o Lingmo. Esperamos que goste!</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/install_success_frame.cpp" line="46"/>
@@ -647,8 +647,8 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
-        <translation>Contrato de Licença do Usuário Final do Software Deepin</translation>
+        <source>Lingmo Software End User License Agreement</source>
+        <translation>Contrato de Licença do Usuário Final do Software Lingmo</translation>
     </message>
 </context>
 <context>
@@ -677,7 +677,7 @@
     <message>
         <location filename="../src/ui/frames/inner/simple_partition_frame.cpp" line="408"/>
         <source>Windows will not boot if install lingmo on Windows disk, please confirm to continue</source>
-        <translation>O Windows não irá iniciar se o Deepin for instalado no mesmo disco, confirme para continuar</translation>
+        <translation>O Windows não irá iniciar se o Lingmo for instalado no mesmo disco, confirme para continuar</translation>
     </message>
 </context>
 <context>
@@ -881,8 +881,8 @@
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
-        <translation>Definir região para a Plataforma de Gerenciamento de Ponto Final Deepin</translation>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
+        <translation>Definir região para a Plataforma de Gerenciamento de Ponto Final Lingmo</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="81"/>
@@ -1046,7 +1046,7 @@
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="62"/>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="118"/>
         <source>Exit BIOS, and enter lingmo to install</source>
-        <translation>Saia da BIOS e inicie o Deepin para instalar</translation>
+        <translation>Saia da BIOS e inicie o Lingmo para instalar</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/inner/partition_table_warning_frame.cpp" line="66"/>

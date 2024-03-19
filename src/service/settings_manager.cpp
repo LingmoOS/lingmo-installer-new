@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
+ * Copyright (C) 2017 ~ 2018 Lingmo Technology Co., Ltd.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -65,7 +65,7 @@ const char kAutoPartArchSpecFile[] = "auto_part_%1.sh";
 // Absolute path to oem folder.
 const char kDebugOemDir[] = "/tmp/oem";
 const char kUbuntuOemDir[] = "/cdrom/oem";
-const char kDeepinOemDir[] = "/lib/live/mount/medium/oem";
+const char kLingmoOemDir[] = "/lib/live/mount/medium/oem";
 
 // Filename of oem settings
 const char kOemSettingsFilename[] = "settings.ini";
@@ -106,7 +106,7 @@ QDir GetOemDir() {
     } else if (QDir(kUbuntuOemDir).exists()) {
       g_oem_dir = kUbuntuOemDir;
     } else {
-      g_oem_dir = kDeepinOemDir;
+      g_oem_dir = kLingmoOemDir;
     }
   }
   return QDir(g_oem_dir);

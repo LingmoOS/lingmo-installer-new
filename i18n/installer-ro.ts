@@ -608,7 +608,7 @@
     <message>
         <location filename="../src/ui/frames/disk_space_insufficient_frame.cpp" line="40"/>
         <source>It needs more than %1GB disk space to install lingmo, for better performance, %2GB and more space is recommended</source>
-        <translation>Este nevoie de mai mult de %1GB spațiu liber pe mediul de stocare pentru a instala Deepin. Pentru o mai bună performanță este recomandat %2GB sau mai mult spațiu liber.</translation>
+        <translation>Este nevoie de mai mult de %1GB spațiu liber pe mediul de stocare pentru a instala Lingmo. Pentru o mai bună performanță este recomandat %2GB sau mai mult spațiu liber.</translation>
     </message>
 </context>
 <context>
@@ -647,7 +647,7 @@
     </message>
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
-        <source>Deepin Software End User License Agreement</source>
+        <source>Lingmo Software End User License Agreement</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -881,7 +881,7 @@
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
-        <source>Set the region for Deepin EndPoint Management Platform</source>
+        <source>Set the region for Lingmo EndPoint Management Platform</source>
         <translation type="unfinished"/>
     </message>
     <message>

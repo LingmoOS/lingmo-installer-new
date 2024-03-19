@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Deepin Installer Greeter
+Name=Lingmo Installer Greeter
 Name=lingmo-installer greeter for lightdm
 Type=Application
 Exec=lingmo-installer-pkexec
