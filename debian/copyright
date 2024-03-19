@@ -1,9 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: lingmo-installer-reborn
-Source: http://www.lingmo.org
+Upstream-Name: lingmo-installer
+Source: http://lingmo.org
 
 Files: *
-Copyright: 2016 Xu Shaohua <xushaohua@lingmo.com>
+Copyright: 2016 Xu Shaohua <xushaohua@lingmo.com>,
+2024 Lingmo OS Team <team@lingmo.org>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
