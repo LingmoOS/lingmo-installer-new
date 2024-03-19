@@ -1,5 +1,5 @@
 # About
-Deepin Installer, release version.
+LingmoOS Installer, deveopment version.
 
 # Dependencies
 * Qt 5.5+

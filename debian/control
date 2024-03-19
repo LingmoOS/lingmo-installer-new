@@ -1,7 +1,7 @@
 Source: lingmo-installer-reborn
 Section: utils
 Priority: extra
-Maintainer: Deepin Packages Builder <packages@lingmo.com>
+Maintainer: Lingmo Packages Builder <packages@lingmo.com>
 Build-Depends:
     cmake (>=3.1),
     debhelper (>=9),
@@ -25,7 +25,7 @@ Build-Depends:
     libdtkcore-dev,
     libdtkcore5-bin
 Standards-Version: 3.9.8
-Homepage: http://www.lingmo.org
+Homepage: http://lingmo.org
 
 Package: lingmo-installer-timezones
 Architecture: all
