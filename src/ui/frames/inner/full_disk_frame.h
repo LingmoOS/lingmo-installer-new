@@ -15,8 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef DEEPIN_INSTALLER_UI_FRAMES_INNER_FULL_DISK_FRAME_H
-#define DEEPIN_INSTALLER_UI_FRAMES_INNER_FULL_DISK_FRAME_H
+#ifndef LINGMO_INSTALLER_UI_FRAMES_INNER_FULL_DISK_FRAME_H
+#define LINGMO_INSTALLER_UI_FRAMES_INNER_FULL_DISK_FRAME_H
 
 #include "partman/device.h"
 
@@ -80,4 +80,4 @@ public slots:
 
 }  // namespace installer
 
-#endif  // DEEPIN_INSTALLER_UI_FRAMES_INNER_FULL_DISK_FRAME_H
+#endif  // LINGMO_INSTALLER_UI_FRAMES_INNER_FULL_DISK_FRAME_H

@@ -15,8 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef DEEPIN_INSTALLER_USER_FORM_WINDOW_H
-#define DEEPIN_INSTALLER_USER_FORM_WINDOW_H
+#ifndef LINGMO_INSTALLER_USER_FORM_WINDOW_H
+#define LINGMO_INSTALLER_USER_FORM_WINDOW_H
 
 #include <QWidget>
 
@@ -62,4 +62,4 @@ class UserFormWindow : public QWidget {
 
 }  // namespace installer
 
-#endif  // DEEPIN_INSTALLER_USER_FORM_WINDOW_H
+#endif  // LINGMO_INSTALLER_USER_FORM_WINDOW_H

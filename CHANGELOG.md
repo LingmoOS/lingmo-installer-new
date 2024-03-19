@@ -243,7 +243,7 @@
 * **partition:**  gpt table need 33 sectors in the end ([91c3ab52](https://github.com/LingmoOS/lingmo-installer-new/commit/91c3ab528a4a76e6ba6693fc3d18c0c624247985))
 * **sw:**
   *  disable plymouth when enable full disk crypt ([5a94dacd](https://github.com/LingmoOS/lingmo-installer-new/commit/5a94dacd7703fb759e400596e7bc639a7bcc39f9))
-  *  change repo url to pd4s.pacakges.deepin.com ([cf67644e](https://github.com/LingmoOS/lingmo-installer-new/commit/cf67644e5415dddbb77cb24e1a9fb94500d402f4))
+  *  change repo url to pd4s.pacakges.lingmo.com ([cf67644e](https://github.com/LingmoOS/lingmo-installer-new/commit/cf67644e5415dddbb77cb24e1a9fb94500d402f4))
 * **swap:**  recalculate swap size ([7963055a](https://github.com/LingmoOS/lingmo-installer-new/commit/7963055a7317942284d35c8545bb42be2551afea))
 * **timezone:**  set default timezone from Etc/UTC to Asia/Shanghai ([f6d021cf](https://github.com/LingmoOS/lingmo-installer-new/commit/f6d021cfd41d94e8354ec75a60d4dd220be1f712))
 

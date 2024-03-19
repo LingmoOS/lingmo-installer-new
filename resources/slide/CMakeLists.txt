@@ -2,7 +2,7 @@ find_package(PkgConfig REQUIRED)
 find_package(DtkCMake REQUIRED)
 
 if (${INSTALLER_BUILD_ARCH} MATCHES "x86")
-  if (OS_DEEPIN_PROFESSIONAL)
+  if (OS_LINGMO_PROFESSIONAL)
     install(
       DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/
       DESTINATION  ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources/slide

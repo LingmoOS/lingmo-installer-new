@@ -15,8 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef DEEPIN_INSTALLER_SERVICE_PROCESS_UTIL_H
-#define DEEPIN_INSTALLER_SERVICE_PROCESS_UTIL_H
+#ifndef LINGMO_INSTALLER_SERVICE_PROCESS_UTIL_H
+#define LINGMO_INSTALLER_SERVICE_PROCESS_UTIL_H
 
 namespace installer {
 
@@ -25,4 +25,4 @@ void Suicide();
 
 }  // namespace installer
 
-#endif  // DEEPIN_INSTALLER_SERVICE_PROCESS_UTIL_H
+#endif  // LINGMO_INSTALLER_SERVICE_PROCESS_UTIL_H
