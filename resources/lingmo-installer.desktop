@@ -2,7 +2,7 @@
 Categories=Settings;
 Comment=Installer for Lingmo OS
 Exec=lingmo-installer-pkexec
-Icon=lingmo-installer.svg
+Icon=lingmo-installer
 Name=Install Lingmo
 StartupNotify=false
 Terminal=false
@@ -73,7 +73,7 @@ Comment[uk]=Встановлювач Lingmo OS
 Name[uk]=Встановити Lingmo
 Comment[zh_CN]=Lingmo OS安装器
 Name[zh_CN]=安装Lingmo
-Comment[zh_TW]=Lingmo 作業系統安裝程式
+Comment[zh_TW]=Lingmo OS安裝程序
 Name[zh_TW]=安裝 Lingmo
 Comment[es_AR]=Instalador de Lingmo OS
 Name[es_AR]=Instalar Lingmo
