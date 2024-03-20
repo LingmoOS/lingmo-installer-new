@@ -2,7 +2,7 @@
 Categories=Settings;
 Comment=OEM tool for lingmo installer
 Exec=lingmo-installer-oem
-Icon=lingmo-installer-oem
+Icon=/usr/share/icons/hicolor/scalable/apps/lingmo-installer-oem.svg
 Name=Lingmo Installer OEM
 StartupNotify=false
 Terminal=false

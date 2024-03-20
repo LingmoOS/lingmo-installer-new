@@ -2,7 +2,7 @@
 Categories=Settings;
 Comment=Installer for Lingmo OS
 Exec=lingmo-installer-pkexec
-Icon=lingmo-installer
+Icon=/usr/share/icons/hicolor/scalable/apps/lingmo-installer.svg
 Name=Install Lingmo
 StartupNotify=false
 Terminal=false
