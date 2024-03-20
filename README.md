@@ -21,6 +21,9 @@ LingmoOS Installer, deveopment version.
 * No window drag/drop operations
 * No cut/copy/paste operations
 
+# ToDo
+- [ ] Able to change account image on installer page.
+
 # Unit test
 Run `lingmo-installer-tests`
 

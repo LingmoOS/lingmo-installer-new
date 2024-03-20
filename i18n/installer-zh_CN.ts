@@ -648,7 +648,7 @@
     <message>
         <location filename="../src/ui/frames/inner/select_language_frame.cpp" line="198"/>
         <source>Lingmo Software End User License Agreement</source>
-        <translation>《深度操作系统最终用户许可协议》</translation>
+        <translation>《灵墨操作系统最终用户许可协议》</translation>
     </message>
 </context>
 <context>
@@ -882,7 +882,7 @@
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="24"/>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="84"/>
         <source>Set the region for Lingmo EndPoint Management Platform</source>
-        <translation>设置深度终端集中管控平台的管控区域</translation>
+        <translation>设置灵墨终端集中管控平台的管控区域</translation>
     </message>
     <message>
         <location filename="../src/ui/frames/control_platform_frame.cpp" line="81"/>
