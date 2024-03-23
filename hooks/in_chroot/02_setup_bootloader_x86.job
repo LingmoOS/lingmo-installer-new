@@ -46,7 +46,7 @@ if ls /boot/vmlinuz* 1> /dev/null 2>&1; then
     echo "Linux kernel installed!"
 else
     echo "Linux kernel not installed!"
-    apt-get install linux-image-amd64
+    apt-get install -y linux-image-amd64
 fi
 
 if [ x${DI_UEFI} = xtrue ]; then
