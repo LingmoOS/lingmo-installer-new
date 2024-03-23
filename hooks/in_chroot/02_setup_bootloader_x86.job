@@ -41,6 +41,14 @@ DI_UEFI=$(installer_get "DI_UEFI")
 [ -z ${DI_BOOTLOADER} ] && \
   warn_exit "DI_BOOTLOADER not set. Treat as not install bootloader. Skip."
 
+# Checking Linux kernel install
+if ls /boot/vmlinuz* 1> /dev/null 2>&1; then
+    echo "Linux kernel installed!"
+else
+    echo "Linux kernel not installed!"
+    apt-get install linux-image-amd64
+fi
+
 if [ x${DI_UEFI} = xtrue ]; then
   BOOT="uefi"
 else
