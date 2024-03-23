@@ -21,7 +21,7 @@
 LINGMO_GRUB_PATH=/usr/share/lingmo-installer/resources/grub/lingmo
 if [ -d "$LINGMO_GRUB_PATH" ]; then
     mkdir -p /target/boot/grub
-    cp -rfv $LINGMO_GRUB_PATH /target/boot/grub/
+    cp -rfv $LINGMO_GRUB_PATH /target/boot/grub/themes
 else
     echo "GRUB theme path: $path non-existing, passing."
     return 0
