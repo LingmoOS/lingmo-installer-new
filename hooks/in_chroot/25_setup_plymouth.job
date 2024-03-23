@@ -18,13 +18,13 @@
 
 # Copy plymouth theme folder into system.
 
-SRC_DIR="${OEM_DIR}/plymouth-theme/lingmo-logo"
-DEST_DIR=/usr/share/plymouth/themes/lingmo-logo
-if [ -d "${SRC_DIR}" ]; then
-  rm -rf "${DEST_DIR}" || warn_exit "Failed to remove old plymouth theme"
-  cp -rvf "${SRC_DIR}" "${DEST_DIR}" || \
-    warn_exit "Failed to copy plymouth theme to system"
-  chmod +R 644 "${DEST_DIR}"
-fi
+# SRC_DIR="${OEM_DIR}/plymouth-theme/lingmo-logo"
+# DEST_DIR=/usr/share/plymouth/themes/lingmo-logo
+# if [ -d "${SRC_DIR}" ]; then
+#   rm -rf "${DEST_DIR}" || warn_exit "Failed to remove old plymouth theme"
+#   cp -rvf "${SRC_DIR}" "${DEST_DIR}" || \
+#     warn_exit "Failed to copy plymouth theme to system"
+#   chmod +R 644 "${DEST_DIR}"
+# fi
 
 return 0

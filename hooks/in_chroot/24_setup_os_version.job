@@ -20,17 +20,17 @@
 # Put this script before 51_install_lingmo_license_activator.job
 
 # Update /etc/lingmo-version.
-NEW_VERSION=$(installer_get "system_info_lingmo_version")
-if [ -n "${NEW_VERSION}" ]; then
-  [ -f /etc/lingmo-version ] && rm -vf /etc/lingmo-version
-  echo "${NEW_VERSION}" | base64 -d | tee /etc/lingmo-version
-fi
+# NEW_VERSION=$(installer_get "system_info_lingmo_version")
+# if [ -n "${NEW_VERSION}" ]; then
+#   [ -f /etc/lingmo-version ] && rm -vf /etc/lingmo-version
+#   echo "${NEW_VERSION}" | base64 -d | tee /etc/lingmo-version
+# fi
 
-# Update /etc/lsb-release
-NEW_RELEASE=$(installer_get "system_info_lsb_release")
-if [ -n "${NEW_RELEASE}" ]; then
-  [ -f /etc/lsb-release ] && rm -vf /etc/lsb-release
-  echo "${NEW_RELEASE}" | base64 -d | tee /etc/lsb-release
-fi
+# # Update /etc/lsb-release
+# NEW_RELEASE=$(installer_get "system_info_lsb_release")
+# if [ -n "${NEW_RELEASE}" ]; then
+#   [ -f /etc/lsb-release ] && rm -vf /etc/lsb-release
+#   echo "${NEW_RELEASE}" | base64 -d | tee /etc/lsb-release
+# fi
 
 return 0

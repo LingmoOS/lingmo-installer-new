@@ -28,6 +28,11 @@ install(
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps
 )
 
+# Install grub Themes for install
+install(
+  DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/grub
+  DESTINATION ${CMAKE_INSTALL_PREFIX}/share/lingmo-installer/resources
+)
 
 # Install default_settings.ini based on current architecture.
 set(INSTALLER_BUILD_ARCH "")

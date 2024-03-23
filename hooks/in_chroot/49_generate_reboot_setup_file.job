@@ -21,45 +21,45 @@
 # If reboot-setup is enabled, backup lightdm.conf and modify it to execute
 # lingmo-installer-first-boot.
 
-SYSTEM_CHECK_MODE=$(installer_get "system_check_mode")
-DI_SI_USER=$(installer_get "DI_SI_USER")
+# SYSTEM_CHECK_MODE=$(installer_get "system_check_mode")
+# DI_SI_USER=$(installer_get "DI_SI_USER")
 
-prepare_lightdm_lingmo_installer_mode() {
-  local CONF_FILE=/etc/lightdm/lightdm.conf
-  local TEMP_CONF_FILE=/etc/lightdm/lightdm.conf.real
-  if [ -f "${CONF_FILE}" ]; then
-    install -v -m644 "${CONF_FILE}" "${TEMP_CONF_FILE}"
-  fi
+# prepare_lightdm_lingmo_installer_mode() {
+#   local CONF_FILE=/etc/lightdm/lightdm.conf
+#   local TEMP_CONF_FILE=/etc/lightdm/lightdm.conf.real
+#   if [ -f "${CONF_FILE}" ]; then
+#     install -v -m644 "${CONF_FILE}" "${TEMP_CONF_FILE}"
+#   fi
 
-if [ x${SYSTEM_CHECK_MODE} != "xtrue" ]; then
-cat > "${CONF_FILE}" <<EOF
-[Seat:*]
-greeter-setup-script=/usr/bin/lingmo-installer-first-boot
-EOF
+# if [ x${SYSTEM_CHECK_MODE} != "xtrue" ]; then
+# cat > "${CONF_FILE}" <<EOF
+# [Seat:*]
+# greeter-setup-script=/usr/bin/lingmo-installer-first-boot
+# EOF
 
-else
+# else
 
-# 进入审核模式
-cat > "${CONF_FILE}" <<EOF
-[Seat:*]
-autologin-user=${DI_SI_USER}
-user-session=lingmo
-display-setup-script=/lingmo-installer/lightdm-start.sh
-display-stopped-script=/lingmo-installer/lightdm-stop.sh
-EOF
+# # 进入审核模式
+# cat > "${CONF_FILE}" <<EOF
+# [Seat:*]
+# autologin-user=${DI_SI_USER}
+# user-session=lingmo
+# display-setup-script=/lingmo-installer/lightdm-start.sh
+# display-stopped-script=/lingmo-installer/lightdm-stop.sh
+# EOF
 
-fi
-}
+# fi
+# }
 
-if [ x$(installer_get "system_info_setup_after_reboot") = "xtrue" ]; then
-  touch /etc/lingmo-installer-first-boot
+# if [ x$(installer_get "system_info_setup_after_reboot") = "xtrue" ]; then
+#   touch /etc/lingmo-installer-first-boot
 
-  # See "setup_lightdm.job" for more info.
-  if [ -f /lib/systemd/system/lingmo-installer.target ]; then
-    systemctl set-default -f lingmo-installer.target
-  else
-    prepare_lightdm_lingmo_installer_mode
-  fi
-fi
+#   # See "setup_lightdm.job" for more info.
+#   if [ -f /lib/systemd/system/lingmo-installer.target ]; then
+#     systemctl set-default -f lingmo-installer.target
+#   else
+#     prepare_lightdm_lingmo_installer_mode
+#   fi
+# fi
 
 return 0
